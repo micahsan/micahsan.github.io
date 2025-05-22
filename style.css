@@ -1,0 +1,51 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+  max-width: 50em;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #282828;
+  color: #e0e0e0;
+  padding: 1rem;
+}
+
+header {
+  text-align: center;
+  padding: 2rem 0;
+}
+
+a:link {
+  color: #318ac4; /* default link color */
+}
+
+a:visited {
+  color: #7baedb; /* color after it’s been clicked */
+}
+
+a:hover {
+  color: #58c4ff; /* color when mouse hovers */
+  text-decoration: underline; /* optional: adds underline on hover */
+}
+
+a:active {
+  color: #2d8cc4; /* color when actively clicking */
+}
+
+
+section {
+  margin: 2rem 0;
+  color: #e0e0e0
+}
+
+.project {
+  margin-bottom: 1.5rem;
+}
+
+.bio-line {
+    margin-top: 0.5rem;
+}
+
